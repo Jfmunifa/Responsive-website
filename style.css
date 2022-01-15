@@ -40,6 +40,27 @@ li a{
 .icons{
     margin-top: 15px;
 }
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    height: fit-content;
+    align-items: center;
+   }
+ .section img{
+    width:50%;
+    margin-left: 500px;
+    margin-top: 60px;
+    
+}
+button{
+    background-color: plum;
+    color:white;
+    font-weight: 500;
+    border-radius: 10%;
+    border: 20%;
+    padding: 10%;      
+}
 
 
 
