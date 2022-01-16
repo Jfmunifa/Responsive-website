@@ -88,8 +88,27 @@ button{
 }
 .different-sites img{
     width: 100%;
+}
+.Next{
+    text-align: right;
+    color: slateblue;
+    font-weight: 700;
+    font-size:large;
+    border: 30px;
+    margin: 20px;
+}
+footer{
+    height: 150px;
+    padding-top: 20px;
+    background-color: teal;
+    text-align: center;
 
 }
+.fab{
+     padding-top: 20px;
+}
+
+
 
 
 
