@@ -54,14 +54,42 @@ main{
     
 }
 button{
-    background-color: plum;
+    background-color:mediumvioletred;
     color:white;
     font-weight: 500;
     border-radius: 10%;
     border: 20%;
+    margin-top: 10px;
     padding: 10%;      
 }
+.Apps{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.Grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 
+}
+.fa-star{
+    color: goldenrod;
+}
+.fa-star-half-alt{
+    color: goldenrod;
+}
+.different-sites{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding:10px;
+    width: 280px;
+    border: 1px solid grey;
+    box-shadow: 4px 4px 12px grey;
+}
+.different-sites img{
+    width: 100%;
+
+}
 
 
 
