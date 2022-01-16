@@ -6,13 +6,14 @@
 body{
        
     font-family: 'Spline Sans', sans-serif}
-
+/* -----navigation------- */
 nav{
     display:flex;
     justify-content: space-between;
     height: 60px;
     align-items: center;
 }
+/* ------container------- */
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -62,6 +63,13 @@ button{
     margin-top: 10px;
     padding: 10%;      
 }
+button:hover{
+    transform:scale(1.2);
+    transition:transform 2s ease-out;
+}
+/* ------------------
+       main
+   --------------- */
 .Apps{
     text-align: center;
     margin-top: 50px;
@@ -89,6 +97,7 @@ button{
 .different-sites img{
     width: 100%;
 }
+/* -----small----- */
 .Next{
     text-align: right;
     color: slateblue;
@@ -97,6 +106,7 @@ button{
     border: 30px;
     margin: 20px;
 }
+/* ------footer-------- */
 footer{
     height: 150px;
     padding-top: 20px;
@@ -106,6 +116,37 @@ footer{
 }
 .fab{
      padding-top: 20px;
+}
+/* -----------
+Media queries
+------------- */
+/* -----Mobile device------ */
+
+@media only screen and (max-width:688px){
+    .name{
+        text-align: center;
+    }
+    .image{
+        width: 100%;
+    
+    }
+    footer{
+        width:100%;
+    }
+    .Grid{
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+    }
+
+/*------Tablet device------ */
+@media only screen and (min-width:600px) and (max-width:780){
+    .Grid{
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+    }
+    .container{
+        flex-direction: column;
+    }
 }
 
 
